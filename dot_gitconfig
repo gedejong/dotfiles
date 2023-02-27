@@ -1,6 +1,6 @@
 [user]
 	name = Edwin de Jong
-	email = edwin@databuildcompany.com
+	email = {{ .email | quote }}
 
 [alias]
     # one-line log
