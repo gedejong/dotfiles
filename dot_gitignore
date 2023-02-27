@@ -292,3 +292,4 @@ tags
 
 # Python
 .venv/
+pyproject.toml
