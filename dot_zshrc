@@ -170,4 +170,5 @@ export PATH="$PATH:/Users/edejong/.local/bin"
 export KEYID=25C5B58FADA7859D
 export GPG_TTY="$(tty)"
 export SSH_AUTH_SOCK=$(gpgconf --list-dirs agent-ssh-socket)
+export PATH=/opt/homebrew/anaconda3/bin/:/usr/local/anaconda3/bin:$PATH
 gpgconf --launch gpg-agent
