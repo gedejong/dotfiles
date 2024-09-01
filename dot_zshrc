@@ -166,11 +166,11 @@ reveal () {
 
 # Created by `pipx` on 2023-02-08 17:40:05
 export PATH="$PATH:/Users/edejong/.local/bin"
-export PATH="$PATH:/Users/edejong/.local/bin"
+export PATH="$PATH:/Users/dibbeke/Library/Caches/ScalaCli/local-repo/bin/scala-cli"
+export PATH="$PATH:/Users/dibbeke/.pulumi/bin"
+export PATH=/opt/homebrew/anaconda3/bin/:/usr/local/anaconda3/bin:$PATH
 export KEYID=25C5B58FADA7859D
 export GPG_TTY="$(tty)"
 export SSH_AUTH_SOCK=$(gpgconf --list-dirs agent-ssh-socket)
 # Anaconda PATH (not sure if /usr/local is actually used
-export PATH=/opt/homebrew/anaconda3/bin/:/usr/local/anaconda3/bin:$PATH
 gpgconf --launch gpg-agent
-export PATH="$PATH:/Users/dibbeke/Library/Caches/ScalaCli/local-repo/bin/scala-cli"
